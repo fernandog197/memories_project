@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const URL = 'https://memories-project-backend.onrender.com/posts'
+const URL = 'http://localhost:5000/posts'
 
 export const fetchPosts = () => axios.get(URL)
 export const createPost = (newPost) => axios.post(URL, newPost)
